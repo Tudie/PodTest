@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface NSString : NSObject
+@interface NSStringTest : NSObject
 +(NSString *)TestValues;
 @end
 

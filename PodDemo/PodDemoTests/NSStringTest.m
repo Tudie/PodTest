@@ -6,7 +6,7 @@
 //  Copyright © 2019 fujia. All rights reserved.
 //
 
-#import "NSString.h"
+#import "NSStringTest.h"
 
 @implementation NSString
 

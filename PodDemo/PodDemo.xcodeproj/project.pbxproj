@@ -14,7 +14,7 @@
 		A703EDC91FCBB25600330705 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A703EDC71FCBB25600330705 /* LaunchScreen.storyboard */; };
 		A703EDCC1FCBB25600330705 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A703EDCB1FCBB25600330705 /* main.m */; };
 		A703EDF01FCBB27100330705 /* FJObject.m in Sources */ = {isa = PBXBuildFile; fileRef = A703EDEF1FCBB27100330705 /* FJObject.m */; };
-		C468F87F228D3ED60030F6E4 /* NSString.m in Sources */ = {isa = PBXBuildFile; fileRef = C468F87E228D3ED60030F6E4 /* NSString.m */; };
+		C468F87F228D3ED60030F6E4 /* NSStringTest.m in Sources */ = {isa = PBXBuildFile; fileRef = C468F87E228D3ED60030F6E4 /* NSStringTest.m */; };
 		C468F880228D3F530030F6E4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A71446A41FCBE2E500B85D9C /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
@@ -55,8 +55,8 @@
 		A71446A41FCBE2E500B85D9C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A71446A51FCBE34300B85D9C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A71446A61FCBE34A00B85D9C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		C468F87D228D3ED60030F6E4 /* NSString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSString.h; sourceTree = "<group>"; };
-		C468F87E228D3ED60030F6E4 /* NSString.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSString.m; sourceTree = "<group>"; };
+		C468F87D228D3ED60030F6E4 /* NSStringTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSStringTest.h; sourceTree = "<group>"; };
+		C468F87E228D3ED60030F6E4 /* NSStringTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSStringTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,8 +128,8 @@
 			isa = PBXGroup;
 			children = (
 				A703EDD71FCBB25600330705 /* Info.plist */,
-				C468F87D228D3ED60030F6E4 /* NSString.h */,
-				C468F87E228D3ED60030F6E4 /* NSString.m */,
+				C468F87D228D3ED60030F6E4 /* NSStringTest.h */,
+				C468F87E228D3ED60030F6E4 /* NSStringTest.m */,
 			);
 			path = PodDemoTests;
 			sourceTree = "<group>";
@@ -296,7 +296,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C468F87F228D3ED60030F6E4 /* NSString.m in Sources */,
+				C468F87F228D3ED60030F6E4 /* NSStringTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
