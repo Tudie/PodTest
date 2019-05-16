@@ -13,9 +13,9 @@
 		A703EDC61FCBB25600330705 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A703EDC51FCBB25600330705 /* Assets.xcassets */; };
 		A703EDC91FCBB25600330705 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A703EDC71FCBB25600330705 /* LaunchScreen.storyboard */; };
 		A703EDCC1FCBB25600330705 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A703EDCB1FCBB25600330705 /* main.m */; };
-		A703EDD61FCBB25600330705 /* PodDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A703EDD51FCBB25600330705 /* PodDemoTests.m */; };
-		A703EDE11FCBB25600330705 /* PodDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A703EDE01FCBB25600330705 /* PodDemoUITests.m */; };
 		A703EDF01FCBB27100330705 /* FJObject.m in Sources */ = {isa = PBXBuildFile; fileRef = A703EDEF1FCBB27100330705 /* FJObject.m */; };
+		C468F87F228D3ED60030F6E4 /* NSString.m in Sources */ = {isa = PBXBuildFile; fileRef = C468F87E228D3ED60030F6E4 /* NSString.m */; };
+		C468F880228D3F530030F6E4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A71446A41FCBE2E500B85D9C /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,16 +47,16 @@
 		A703EDCA1FCBB25600330705 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A703EDCB1FCBB25600330705 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A703EDD11FCBB25600330705 /* PodDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PodDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A703EDD51FCBB25600330705 /* PodDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PodDemoTests.m; sourceTree = "<group>"; };
 		A703EDD71FCBB25600330705 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A703EDDC1FCBB25600330705 /* PodDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PodDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A703EDE01FCBB25600330705 /* PodDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PodDemoUITests.m; sourceTree = "<group>"; };
 		A703EDE21FCBB25600330705 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A703EDEE1FCBB27100330705 /* FJObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FJObject.h; sourceTree = "<group>"; };
 		A703EDEF1FCBB27100330705 /* FJObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FJObject.m; sourceTree = "<group>"; };
 		A71446A41FCBE2E500B85D9C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A71446A51FCBE34300B85D9C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A71446A61FCBE34A00B85D9C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C468F87D228D3ED60030F6E4 /* NSString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSString.h; sourceTree = "<group>"; };
+		C468F87E228D3ED60030F6E4 /* NSString.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSString.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C468F880228D3F530030F6E4 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -126,8 +127,9 @@
 		A703EDD41FCBB25600330705 /* PodDemoTests */ = {
 			isa = PBXGroup;
 			children = (
-				A703EDD51FCBB25600330705 /* PodDemoTests.m */,
 				A703EDD71FCBB25600330705 /* Info.plist */,
+				C468F87D228D3ED60030F6E4 /* NSString.h */,
+				C468F87E228D3ED60030F6E4 /* NSString.m */,
 			);
 			path = PodDemoTests;
 			sourceTree = "<group>";
@@ -135,7 +137,6 @@
 		A703EDDF1FCBB25600330705 /* PodDemoUITests */ = {
 			isa = PBXGroup;
 			children = (
-				A703EDE01FCBB25600330705 /* PodDemoUITests.m */,
 				A703EDE21FCBB25600330705 /* Info.plist */,
 			);
 			path = PodDemoUITests;
@@ -295,7 +296,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A703EDD61FCBB25600330705 /* PodDemoTests.m in Sources */,
+				C468F87F228D3ED60030F6E4 /* NSString.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,7 +304,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A703EDE11FCBB25600330705 /* PodDemoUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

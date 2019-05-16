@@ -9,5 +9,7 @@
 #import "FJObject.h"
 
 @implementation FJObject
-
++(NSString *)TestValues{
+    return @"测试O0o";
+}
 @end

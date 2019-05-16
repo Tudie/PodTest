@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name         = "PodTest"
+  s.name         = "PodDemo"
   s.version      = "0.0.1"
   s.summary      = "pod测试"
   s.description  = <<-DESC
@@ -8,10 +8,8 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/Tudie/PodTest"
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author             = { "YG1992Love19" => "yangguangrush@gmail.com" }
-  s.platform     = :ios, '9.0'
   s.source       = { :git => "https://github.com/Tudie/PodTest.git", :tag => s.version.to_s }
-  s.source_files  = "PodDemo/**/*.{h,m}"
+  s.source_files = "PodDemo/PodDemo/*.{h,m}"
   s.frameworks = "UIKit", "AVFoundation", , "Foundation"
   s.requires_arc = true
-  s.dependency "Masonry"
 end
