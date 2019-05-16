@@ -8,9 +8,9 @@
 
 #import "NSStringTest.h"
 
-@implementation NSString
+@implementation NSStringTest
 
 +(NSString *)TestValues{
-    return @"测试陈工"；
+    return @"测试陈工";
 }
 @end

@@ -15,7 +15,8 @@
 		A703EDCC1FCBB25600330705 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A703EDCB1FCBB25600330705 /* main.m */; };
 		A703EDF01FCBB27100330705 /* FJObject.m in Sources */ = {isa = PBXBuildFile; fileRef = A703EDEF1FCBB27100330705 /* FJObject.m */; };
 		C468F87F228D3ED60030F6E4 /* NSStringTest.m in Sources */ = {isa = PBXBuildFile; fileRef = C468F87E228D3ED60030F6E4 /* NSStringTest.m */; };
-		C468F880228D3F530030F6E4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A71446A41FCBE2E500B85D9C /* UIKit.framework */; };
+		C468F882228D40C90030F6E4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C468F881228D40C90030F6E4 /* UIKit.framework */; };
+		C468F884228D40DE0030F6E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C468F883228D40DE0030F6E4 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,11 +53,10 @@
 		A703EDE21FCBB25600330705 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A703EDEE1FCBB27100330705 /* FJObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FJObject.h; sourceTree = "<group>"; };
 		A703EDEF1FCBB27100330705 /* FJObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FJObject.m; sourceTree = "<group>"; };
-		A71446A41FCBE2E500B85D9C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		A71446A51FCBE34300B85D9C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		A71446A61FCBE34A00B85D9C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		C468F87D228D3ED60030F6E4 /* NSStringTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSStringTest.h; sourceTree = "<group>"; };
 		C468F87E228D3ED60030F6E4 /* NSStringTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSStringTest.m; sourceTree = "<group>"; };
+		C468F881228D40C90030F6E4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C468F883228D40DE0030F6E4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,7 +64,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C468F880228D3F530030F6E4 /* UIKit.framework in Frameworks */,
+				C468F884228D40DE0030F6E4 /* Foundation.framework in Frameworks */,
+				C468F882228D40C90030F6E4 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,9 +146,8 @@
 		A71446A31FCBE2E400B85D9C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A71446A61FCBE34A00B85D9C /* XCTest.framework */,
-				A71446A51FCBE34300B85D9C /* Foundation.framework */,
-				A71446A41FCBE2E500B85D9C /* UIKit.framework */,
+				C468F883228D40DE0030F6E4 /* Foundation.framework */,
+				C468F881228D40C90030F6E4 /* UIKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
